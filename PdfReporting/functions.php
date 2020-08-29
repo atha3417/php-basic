@@ -1,6 +1,6 @@
 <?php 
 
-$conn = mysqli_connect('localhost', 'root', '', 'php_dasar');
+$conn = mysqli_connect('localhost', 'root', 'root', 'php_dasar');
 
 function query($query) {
 	global $conn;
